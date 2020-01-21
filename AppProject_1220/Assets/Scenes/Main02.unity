@@ -4644,7 +4644,7 @@ GameObject:
   - component: {fileID: 1115770524}
   - component: {fileID: 1115770523}
   m_Layer: 5
-  m_Name: Scrollbar
+  m_Name: "\u8DD1\u99AC\u71C8\u62C9\u689D"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7917,6 +7917,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4123eaf9dea885b42bc4e7a89fc96e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InfoScrollbar: {fileID: 0}
+  Info: {fileID: 0}
   InfoChangeImage:
   - {fileID: 21300000, guid: be65d95dc5cb765468c0dcc370a77f6a, type: 3}
   - {fileID: 21300000, guid: 81fd7f36197deb84db9365a76fa137d1, type: 3}
