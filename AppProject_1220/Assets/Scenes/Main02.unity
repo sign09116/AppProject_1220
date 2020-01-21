@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 20300579}
   - component: {fileID: 20300578}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: "\u8DD1\u99AC\u71C8\u8207\u5BA3\u50B3\u5167\u5BB9"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1275,7 +1275,7 @@ GameObject:
   - component: {fileID: 278289072}
   - component: {fileID: 278289071}
   m_Layer: 5
-  m_Name: Image
+  m_Name: "\u4E3B\u5BA3\u50B3\u5716\u7247"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1313,14 +1313,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3796c5a20dd8f544ea2520baec26f240, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c05f39ce52fc53c468c5f9f0059399db, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1459,10 +1459,10 @@ RectTransform:
   m_Father: {fileID: 662385063}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 184.1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0.000015259, y: 25}
+  m_SizeDelta: {x: 1861.5, y: 1003}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &363681499
 MonoBehaviour:
@@ -1484,9 +1484,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fcf4effc0df315140bb471daf7e732da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73a57a339945a3f4a97f25992a8e8e4e, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1889,7 +1889,7 @@ GameObject:
   - component: {fileID: 507746499}
   - component: {fileID: 507746498}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: "\u53EF\u6539\u8B8A\u5BA3\u50B3\u5716\u7247"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1927,14 +1927,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.638464, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3796c5a20dd8f544ea2520baec26f240, type: 3}
+  m_Sprite: {fileID: 21300000, guid: be65d95dc5cb765468c0dcc370a77f6a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2805,12 +2805,12 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3106,7 +3106,7 @@ GameObject:
   - component: {fileID: 662385065}
   - component: {fileID: 662385064}
   m_Layer: 5
-  m_Name: BackGround
+  m_Name: "\u6A19\u984C\u4ECB\u9762\u7FA4\u7D44"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3291,7 +3291,7 @@ GameObject:
   - component: {fileID: 771116482}
   - component: {fileID: 771116484}
   m_Layer: 5
-  m_Name: BackGround02
+  m_Name: "\u4E3B\u64CD\u4F5C\u4ECB\u9762\u7FA4\u7D44"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3654,7 +3654,7 @@ GameObject:
   - component: {fileID: 894366600}
   - component: {fileID: 894366599}
   m_Layer: 5
-  m_Name: Image
+  m_Name: "\u8DD1\u99AC\u71C8\u906E\u7F69"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6052,7 +6052,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: bec14ba1b4bb4024d9dee260b3059fac, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7917,13 +7917,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4123eaf9dea885b42bc4e7a89fc96e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InfoScrollbar: {fileID: 1115770523}
-  Info: {fileID: 507746498}
-  Colors:
-  - {r: 1, g: 0, b: 0.99501085, a: 1}
-  - {r: 0, g: 1, b: 0.19432831, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 1, g: 0.8735534, b: 0, a: 1}
+  InfoChangeImage:
+  - {fileID: 21300000, guid: be65d95dc5cb765468c0dcc370a77f6a, type: 3}
+  - {fileID: 21300000, guid: 81fd7f36197deb84db9365a76fa137d1, type: 3}
+  - {fileID: 21300000, guid: e64a1ffb20401cc4a840ef036006dc0d, type: 3}
+  - {fileID: 21300000, guid: 9af66b9f1e37c194fb55eef3961d50b8, type: 3}
 --- !u!4 &1938200046
 Transform:
   m_ObjectHideFlags: 0

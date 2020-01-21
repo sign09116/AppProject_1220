@@ -4,9 +4,10 @@ using UnityEngine.UI;
 public class Gamemanager : MonoBehaviour
 {
     [Header("INFO物件拉條")]
-    public Scrollbar InfoScrollbar;
-    public Image Info;
-    public Color[] Colors;
+    protected Scrollbar InfoScrollbar;
+    protected Image Info;
+    [Header("要改變的圖片")]
+    public Sprite[] InfoChangeImage;
     // Start is called before the first frame update
 
     void Start()
@@ -37,7 +38,7 @@ public class Gamemanager : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
             InfoScrollbar.value += 0.05f;
         }
-        Info.color = Colors[Random.Range(0, 3)];
+        Info.sprite = InfoChangeImage[Random.Range(0, InfoChangeImage.Length)];
 
     }
     public void fixedInfo()
