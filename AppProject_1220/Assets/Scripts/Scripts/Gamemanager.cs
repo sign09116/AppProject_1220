@@ -15,7 +15,7 @@ public class Gamemanager : MonoBehaviour
         InfoScrollbar = GameObject.Find("跑馬燈拉條").GetComponent<Scrollbar>();
         Info = GameObject.Find("可改變宣傳圖片").GetComponent<Image>();
         Screen.SetResolution(1080, 1920, false);
-        InvokeRepeating("fixedInfo", 5f, 5f);
+        InvokeRepeating("fixedInfo", 0f, 15f);
 
     }
 
@@ -32,15 +32,14 @@ public class Gamemanager : MonoBehaviour
 
     public IEnumerator ChangeInfo()
     {
-        InfoScrollbar.value = 0;
-        yield return new WaitForSeconds(2f);
-        for (int i = 0; i < 20; i++)
+
+        for (int i = 0; i < InfoChangeImage.Length; i++)
         {
 
-            yield return new WaitForSeconds(0.05f);
-            InfoScrollbar.value += 0.05f;
+            Info.sprite = InfoChangeImage[i];
+            yield return new WaitForSeconds(3f);
         }
-        Info.sprite = InfoChangeImage[Random.Range(0, InfoChangeImage.Length)];
+
 
     }
     public void fixedInfo()
